@@ -43,22 +43,22 @@ export class Equipe {
     {
       name: 'Stéphanie',
       role: 'Assistante dentaire',
-      img: 'assets/img/assistante_stephanie.png'
+      img: 'assets/img/assistante_stephanie.PNG'
     },
     {
       name: 'Iman',
       role: 'Assistante dentaire',
-      img: 'assets/img/assistante_iman.png'
+      img: 'assets/img/assistante_iman.PNG'
     },
     {
       name: 'Camille',
       role: 'Assistante dentaire',
-      img: 'assets/img/assistante_camille.png'
+      img: 'assets/img/assistante_camille.PNG'
     },
     {
       name: 'Mélissa',
       role: 'Assistante dentaire',
-      img: 'assets/img/assistante_melissa.png'
+      img: 'assets/img/assistante_melissa.PNG'
     }
   ];
 }
