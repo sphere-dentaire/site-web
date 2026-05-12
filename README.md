@@ -1,7 +1,7 @@
-# SiteWebCabinetDentaire
+# site-web
 Création d'un site web pour un cabinet dentaire.
 =======
-# SiteWebCabinet
+# site-web
 
 Ce projet a été crée en utilisant [Angular CLI](https://github.com/angular/angular-cli) version 20.0.5.
 
@@ -19,19 +19,16 @@ Pour tester le site en local :
 ng serve
 ```
 
-Il faudra ensuite ouvrir le navigateur et aller sur le site `http://localhost:4000/`. 
+Il faudra ensuite ouvrir le navigateur et aller sur le site `http://localhost:4200/`. 
 
 
 ## Hébergement 
-Pour mettre à jour les modifications sur le site hébergé via GitHubPages : 
+Le site est automatiquement déployé via GitHub Actions lors d'un push sur la branche `main`.
+
+Pour un build manuel : 
 
 ```bash
-ng build --configuration production --base-href /SiteWebCabinetDentaire/
-```
-puis 
-
-```bash
-ng deploy --base-href=/SiteWebCabinetDentaire/
+ng build --configuration production --base-href /site-web/
 ```
 
 

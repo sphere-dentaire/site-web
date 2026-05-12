@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - main
+  workflow_dispatch:
 permissions:
   contents: write
 jobs:
@@ -22,7 +23,7 @@ jobs:
         run: npm install
 
       - name: Build
-        run: npx ng build --configuration production --base-href /SiteWebCabinetDentaire/
+        run: npx ng build --configuration production --base-href /site-web/
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
