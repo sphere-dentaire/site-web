@@ -39,6 +39,26 @@ export class Equipe {
       name: 'Dr Matthieu Juillet',
       role: 'Chirurgien-dentiste',
       img: 'assets/img/dr_juillet.PNG'
+    },
+    {
+      name: 'Stéphanie',
+      role: 'Assistante dentaire',
+      img: 'assets/img/assistante_stephanie.png'
+    },
+    {
+      name: 'Iman',
+      role: 'Assistante dentaire',
+      img: 'assets/img/assistante_iman.png'
+    },
+    {
+      name: 'Camille',
+      role: 'Assistante dentaire',
+      img: 'assets/img/assistante_camille.png'
+    },
+    {
+      name: 'Mélissa',
+      role: 'Assistante dentaire',
+      img: 'assets/img/assistante_melissa.png'
     }
   ];
 }
