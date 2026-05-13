@@ -16,17 +16,22 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '22'
           cache: 'npm'
 
       - name: Install dependencies
         run: npm install
 
       - name: Build
-        run: npx ng build --configuration production --base-href /
+        run: npm run build -- --configuration production --base-href /
 
       - name: Copy CNAME
-        run: cp CNAME dist/SiteWebCabinetDentaire/browser/
+        run: |
+          if [ -f CNAME ]; then
+            cp CNAME dist/SiteWebCabinetDentaire/browser/
+          else
+            echo "CNAME file not found, skipping copy."
+          fi
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
