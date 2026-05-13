@@ -10,16 +10,14 @@
   <!-- Script pour gérer les routes Angular sur GitHub Pages -->
   <script type="text/javascript">
     (function(l) {
-      var search = decodeURIComponent(l.search);
-      if (search[1] === '/' ) {
-        var decoded = search.slice(1).split('&').map(function(s) { 
-          return s.replace(/~and~/g, '&')
-        }).join('?');
-        window.history.replaceState(null, null,
-            l.pathname.slice(0, (l.pathname.slice(-1) === '/' ? -1 : undefined)) + decoded + l.hash
-        );
-      }
-    }(window.location))
+  var search = decodeURIComponent(l.search);
+  if (search[1] === '/') {
+    var path = search.slice(2).replace(/~and~/g, '&').replace(/=$/, '').split('&')[0];
+    window.history.replaceState(null, null,
+      l.pathname + '/' + path + l.hash
+    );
+  }
+}(window.location))
   </script>
 </head>
 <body>
