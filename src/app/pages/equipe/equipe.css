@@ -50,6 +50,13 @@
   font-size: 1rem;
   color: #978164;
   font-style: italic;
+  margin-bottom: 0.2rem;
+}
+
+.member .university {
+  font-size: 0.85rem;
+  color: #666;
+  font-style: normal;
 }
 
 .team-actions {

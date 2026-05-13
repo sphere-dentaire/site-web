@@ -7,6 +7,7 @@
       </div>
       <h3>{{ member.name }}</h3>
       <p>{{ member.role }}</p>
+      <p *ngIf="member.university" class="university">{{ member.university }}</p>
     </div>
   </div>
 

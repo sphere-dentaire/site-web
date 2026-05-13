@@ -117,6 +117,12 @@
 .member p {
   font-size: 1rem;
   color: #777;
+  margin-bottom: 0.1rem;
+}
+
+.member .university {
+  font-size: 0.8rem;
+  color: #999;
 }
 
 .member a {
