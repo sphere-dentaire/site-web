@@ -90,12 +90,25 @@
 
 @media (max-width: 600px) {
   .team-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem 1rem;
   }
   
   .member-img-container {
-    width: 200px;
-    height: 200px;
+    width: 140px;
+    height: 140px;
+  }
+
+  .member h3 {
+    font-size: 1.1rem;
+  }
+
+  .member p {
+    font-size: 0.9rem;
+  }
+
+  .member .university {
+    font-size: 0.75rem;
   }
 
   .team h2 {

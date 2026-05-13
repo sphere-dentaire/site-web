@@ -321,32 +321,30 @@
   }
 
   .team-members {
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-    flex-wrap: wrap;
-    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem 1rem;
+    justify-items: center;
     margin-top: 1rem;
   }
 
   .member {
-    max-width: 200px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 1rem;
+    max-width: 100%;
+    margin-bottom: 0;
   }
 
   .member img {
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 50%;
-    margin-bottom: 0.8rem;
+    width: 140px;
+    height: 140px;
+    margin-bottom: 0.5rem;
   }
 
   .member h3 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     margin-bottom: 0.2rem;
+  }
+
+  .member .university {
+    font-size: 0.75rem;
   }
 }
