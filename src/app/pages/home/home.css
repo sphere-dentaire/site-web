@@ -13,8 +13,24 @@
   font-family: 'Poppins', sans-serif;
   font-size: 1.1rem;
   line-height: 1.7;
-  max-width: 1300px;
+  max-width: 1150px;
   margin: 0 auto;
+}
+
+.intro p {
+  margin-bottom: 1.5rem;
+}
+
+.intro .quote {
+  font-style: italic;
+  font-weight: 500;
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+}
+
+.intro .closing {
+  margin-top: 2rem;
+  font-weight: 500;
 }
 
 .cabinet-gallery {
@@ -116,7 +132,8 @@
 
 .member p {
   font-size: 1rem;
-  color: #777;
+  color: #978164;
+  font-style: italic;
   margin-bottom: 0.1rem;
 }
 
