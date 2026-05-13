@@ -5,7 +5,6 @@
     <title>Sphère Dentaire</title>
     <script type="text/javascript">
       var l = window.location;
-      // Si l'URL contient déjà '?/' on ne redirige pas pour éviter la boucle
       if (l.search.indexOf('?/') === -1) {
         var pathSegmentsToKeep = 0;
         l.replace(
