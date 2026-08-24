@@ -69,7 +69,7 @@ export class Equipe {
     {
       name: 'Ilayda',
       role: 'Assistante dentaire',
-      img: 'assets/img/assistante_ilayda.jpg'
+      img: 'assets/img/assistante_ilayda.PNG'
     }
   ];
 }
