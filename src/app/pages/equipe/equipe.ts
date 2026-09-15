@@ -70,7 +70,7 @@ export class Equipe {
       name: 'Inès',
       role: 'Assistante dentaire',
       img: 'assets/img/assistante_ines.jpeg'
-    }
+    },
     {
       name: 'Ilayda',
       role: 'Assistante dentaire',
