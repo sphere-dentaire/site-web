@@ -41,6 +41,12 @@ export class Equipe {
       img: 'assets/img/dr_kuntz.PNG'
     },
     {
+      name: 'Dr Vialla Marie',
+      role: 'Chirurgien-dentiste',
+      university: 'Université de Paris Cité',
+      img: 'assets/img/Vialla.PNG'
+    },
+    {
       name: 'Dr Matthieu Juillet',
       role: 'Chirurgien-dentiste',
       university: 'Université de Paris Garancière',
